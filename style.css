@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+/* Header */
+
+#navbar{
+    margin-top: 5rem;
+}
+.container ul{
+    background: #fff;
+    border-bottom: 1px solid #ACD5F2;
+}
+/* .nav-item .nav-link:hover{
+    border-color: #ACD5F2;
+} */
+
+ul li a i  {
+    padding: 1rem;
+    color: #3191D4;
+}
+
+ul li  span {
+    letter-spacing: 0.1rem;
+    font-size: 1.8rem;
+    font-family: 'Poppins';
+    color:#62B7F3;
+}
+
+/* Section */ 
+
+#main{
+    margin-top: 5rem;
+}
+
+.sectionbox{
+    min-height:20rem ;
+    
+    padding: 1rem; 
+    /* border: 1px solid #ACD5F2; */
+    /* margin: 0.25rem; */
+  }
+#profile-card{
+    box-shadow: 0 15px 10px #777;
+}
+
+#content-card{
+    box-shadow: 0 15px 10px #777;
+}
+.section-profile{
+    
+  }
+.section-about{
+    
+  }  
+
+
+  /**/
+
+.vertical-line{
+    border: 1px solid #dddddd ;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+.horizontal-line-block
+{
+    display: none;
+    
+}
+
+  .icon{
+    padding: 0.25rem;
+    color: #3191D4;
+  }
+
+  #resumeCard span{
+      letter-spacing: 0.1rem;
+      font-size: 1.3rem;
+  }
+
+  /**/
+
+
+
+  

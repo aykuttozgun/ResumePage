@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet" media="(max-width:768px)" href="mobile.css">
+  <title>Resume</title>
+  <style>
+
+
+
+  </style>
+</head>
+
+<body>
+
+  <header>
+
+    <div id="navbar" class="container">
+
+      <ul class="nav nav-tabs justify-content-around text-center">
+        <li class="col-3 nav-item">
+          <a class="nav-link" href="#" onClick="btnResumeClick(); return false;">
+            <i class="fas fa-user fa-2x"></i>
+            <span>Resume</span>
+          </a>
+        </li>
+        <li class="col-3 nav-item">
+          <a class="nav-link" href="#" onClick="btnSkillClick(); return false;">
+            <i class="fas fa-poll-h fa-2x"></i>
+            <span>Skills</span>
+          </a>
+        </li>
+        <li class="col-3 nav-item">
+          <a class="nav-link" href="#" onClick="btnContactClick(); return false;">
+            <i class="fas fa-envelope fa-2x"></i>
+            <span>Contact</span>
+          </a>
+        </li>
+      </ul>
+
+
+
+
+    </div>
+
+  </header>
+
+  <section>
+    <div id="main" class="container">
+      <div class="row section">
+        <div class="col-12 col-md-4 col-lg-3  sectionbox section-profile">
+          <!-- Card Wider -->
+          <div id="profile-card" class="card card-cascade wider">
+
+            <!-- Card image -->
+            <div class="view view-cascade overlay">
+              <img class="card-img-top" src="img/image.png" alt="Card image cap">
+              <a href="#!">
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
+
+            <!-- Card content -->
+            <div class="card-body card-body-cascade text-center">
+
+              <!-- Title -->
+              <h4 class="card-title"><strong>Aykut Özgün</strong></h4>
+              <!-- Subtitle -->
+              <h5 class="blue-text pb-2"><strong>Computer Engineer</strong></h5>
+              <!-- Text -->
+              <p class="card-text">System Engineer</p>
+              <p class="card-text">Junior Front-End Developer </p>
+
+              <!-- Linkedin -->
+              <a class="px-2 fa-lg li-ic"><i class="fab fa-linkedin-in"></i></a>
+              <!-- Twitter -->
+              <a class="px-2 fa-lg tw-ic"><i class="fab fa-twitter"></i></a>
+              <!-- Dribbble -->
+              <a class="px-2 fa-lg fb-ic"><i class="fab fa-facebook-f"></i></a>
+
+            </div>
+
+          </div>
+          <!-- Card Wider -->
+          <!-- Card Regular -->
+        </div>
+
+        <div id="resumeCard" class="col-12 col-md-8 col-lg-9   sectionbox section-resume">
+
+          <div class="card">
+            <div class="card-header">
+              <h3 class="text-center">Resume</h3>
+            </div>
+            <div class="card-body">
+              <div class="row">
+                <div id="resumeEducation" class="col-12 col-md-12 col-lg-5">
+                  <div class="d-flex justify-content-center mt-3 mb-3">
+                    <i class="fas fa-graduation-cap fa-2x icon"></i>
+                    <span> EDUCATION</span>
+                  </div>
+                  <!--dfdsfsdddddddddddddddddddddddddddddddddddddddddddddd-->
+                  <ul class="list-group list-group-flush mt-4">
+                    <li class="list-group-item mb-3">
+                      <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">9 Eylül University</h5>
+                        <small>2018</small>
+                      </div>
+                      <h6>Computer Engineering</h6>
+                    </li>
+                    <li class="list-group-item mb-3">
+                      <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1"> Anatolian High School</h5>
+                        <small>2012</small>
+                      </div>
+                      <h6>Numerical Sciences</h6>
+                    </li>
+
+                  </ul>
+                  <!--asddddddddddddddddddddddddddddddddddddddddddddddddddddd-->
+                </div>
+                <!--resume body-->
+                <!---->
+                <div class="vertical-line"></div>
+                <div class="horizontal-line-block horizontal-line"></div>
+                <div id="resumeWork" class="col-12 col-md-12 col-lg-5">
+                  <div class="d-flex justify-content-center mt-3 mb-3">
+                    <i class="fas fa-briefcase fa-2x icon"></i>
+                    <span> EXPERIENCE</h5>
+                  </div>
+
+                  <ul class="list-group list-group-flush mt-4">
+                    <li class="list-group-item mb-3">
+                      <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Enerjeo Kemaliye JES</h5>
+                        <small>2019</small>
+                      </div>
+                      <h6>System Engineer</h6>
+                    </li>
+                    <li class="list-group-item mb-3">
+                      <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1"> Labenko Bilişim A.Ş.</h5>
+                        <small>2018</small>
+                      </div>
+                      <h6>jR. Front-End Developer</h6>
+                    </li>
+
+                  </ul>
+                </div>
+              </div>
+
+              <!-- <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> -->
+
+            </div>
+            <div class="d-flex justify-content-between card-footer">
+              <a id="btnResumeLeft" href="#" class="btn btn-primary" onClick="resumeLeftClick(); return false;"><i
+                  class="fas fa-arrow-left"></i></a>
+              <a id="btnResumeRight" href="#" class="btn btn-primary" onClick="resumeRightClick(); return false;"><i
+                  class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div id="skillCard" class="d-none col-12 col-md-8 col-lg-9   sectionbox section-resume ">
+
+          <div class="card">
+            <div class="card-header">
+              <h3 class="text-center">Skills</h3>
+            </div>
+            <div class="card-body">
+              <div class="row">
+                <div id="resumeEducation" class="col-12 col-md-12 col-lg-5">
+                  <div class="d-flex justify-content-center mt-3 mb-3">
+                    <i class="fas fa-code fa-2x icon"></i>
+                    <span> SOFTWARE</span>
+                  </div>
+                  <!--dfdsfsdddddddddddddddddddddddddddddddddddddddddddddd-->
+                  <ul class="list-group list-group-flush mt-4">
+                    <li class="list-group-item d-flex justify-content-between align-items-center mb-3">
+                      Html 5 , Css 3 , Boostrap 4
+                      <span class="badge badge-primary badge-pill">Advanced</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center mb-3">
+                      Javascript
+                      <span class="badge badge-primary badge-pill">Upper İntermediate</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center mb-3">
+                      C# , Java
+                      <span class="badge badge-primary badge-pill">İntermediate</span>
+                    </li>
+                    
+
+                  </ul>
+                  <!--asddddddddddddddddddddddddddddddddddddddddddddddddddddd-->
+                </div>
+                <!--resume body-->
+                <!---->
+                <div class="vertical-line"></div>
+                <div class="horizontal-line-block horizontal-line"></div>
+                <div id="resumeWork" class="col-12 col-md-12 col-lg-5">
+                  <div class="d-flex justify-content-center mt-3 mb-3">
+                    <i class="fas fa-server fa-2x icon"></i>
+                    <span> SYSTEM</h5>
+                  </div>
+
+                  <ul class="list-group list-group-flush mt-4">
+                    <li class="list-group-item d-flex justify-content-between align-items-center mb-3">
+                      Server Manager
+                      <span class="badge badge-primary badge-pill">Upper İntermediate</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center mb-3">
+                      Firewall
+                      <span class="badge badge-primary badge-pill">Upper İntermediate</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center mb-3">
+                      Vmware ESXI
+                      <span class="badge badge-primary badge-pill">Upper İntermediate</span>
+                    </li>
+
+
+                  </ul>
+                </div>
+              </div>
+
+              <!-- <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> -->
+
+            </div>
+            <div class="d-flex justify-content-between card-footer">
+              <a href="#" class="btn btn-primary" onClick="skillLeftClick(); return false;"><i
+                  class="fas fa-arrow-left"></i></a>
+              <a href="#" class="btn btn-primary" onClick="skillRightClick(); return false;"><i
+                  class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div id="contactCard" class="d-none col-12 col-md-8 col-lg-9   sectionbox section-resume">
+          <div class="card">
+            <div class="card-header">
+              <h3 class="text-center">Contact</h3>
+            </div>
+            <div class="card-body">
+              <div class="row">
+
+                <!--Grid column-->
+                <div class="col-md-9 mb-md-0 mb-5">
+                  <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                    <!--Grid row-->
+                    <div class="row">
+
+                      <!--Grid column-->
+                      <div class="col-md-6">
+                        <div class="md-form mb-4">
+                          <input type="text" id="name" name="name" class="form-control" placeholder="Your Name">
+                          
+                        </div>
+                      </div>
+                      <!--Grid column-->
+
+                      <!--Grid column-->
+                      <div class="col-md-6">
+                        <div class="md-form mb-4">
+                          <input type="text" id="email" name="email" class="form-control" placeholder="Your E-mail">
+                          
+                        </div>
+                      </div>
+                      <!--Grid column-->
+
+                    </div>
+                    <!--Grid row-->
+
+                    <!--Grid row-->
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="md-form mb-4">
+                          <input type="text" id="subject" name="subject" class="form-control" placeholder="Subject">
+                          
+                        </div>
+                      </div>
+                    </div>
+                    <!--Grid row-->
+
+                    <!--Grid row-->
+                    <div class="row">
+
+                      <!--Grid column-->
+                      <div class="col-md-12">
+
+                        <div class="md-form mb-5">
+                          <textarea type="text" id="message" name="message" rows="2"
+                            class="form-control md-textarea" placeholder="Write Your Message"></textarea>
+                          
+                        </div>
+
+                      </div>
+                    </div>
+                    <!--Grid row-->
+
+                  </form>
+
+                  <div class="text-center text-md-left">
+                    <a class="btn btn-primary btn-block text-white" onclick="document.getElementById('contact-form').submit();">Send</a>
+                  </div>
+                  <div class="status"></div>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-md-3 text-center">
+                  <ul class="list-unstyled mb-0">
+                    <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                      <p>Izmir, Turkey</p>
+                    </li>
+
+                    <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                      <p>+90 539 529 0561</p>
+                    </li>
+
+                    <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                      <p>aykuttozgun@gmail.com</p>
+                    </li>
+                  </ul>
+                </div>
+                <!--Grid column-->
+
+              </div>
+            </div>
+            <div class="d-flex justify-content-between card-footer">
+              <a href="#" class="btn btn-primary" onClick="contactLeftClick(); return false;"><i
+                  class="fas fa-arrow-left"></i></a>
+              <a href="#" class="btn btn-primary" onClick="contactRightClick(); return false;"><i
+                  class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    </div>
+  </section>
+
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
